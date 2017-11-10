@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		036F51001FB64543004C9242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F50FF1FB64543004C9242 /* AppDelegate.swift */; };
+		036F51021FB64543004C9242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F51011FB64543004C9242 /* ViewController.swift */; };
+		036F51051FB64543004C9242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036F51031FB64543004C9242 /* Main.storyboard */; };
+		036F51081FB64543004C9242 /* BridgitChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 036F51061FB64543004C9242 /* BridgitChallenge.xcdatamodeld */; };
+		036F510A1FB64543004C9242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036F51091FB64543004C9242 /* Assets.xcassets */; };
+		036F510D1FB64543004C9242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036F510B1FB64543004C9242 /* LaunchScreen.storyboard */; };
+		036F51181FB64543004C9242 /* BridgitChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F51171FB64543004C9242 /* BridgitChallengeTests.swift */; };
+		036F51231FB64543004C9242 /* BridgitChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F51221FB64543004C9242 /* BridgitChallengeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		036F51141FB64543004C9242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036F50F41FB64543004C9242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036F50FB1FB64543004C9242;
+			remoteInfo = BridgitChallenge;
+		};
+		036F511F1FB64543004C9242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 036F50F41FB64543004C9242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 036F50FB1FB64543004C9242;
+			remoteInfo = BridgitChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		036F50FC1FB64543004C9242 /* BridgitChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgitChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		036F50FF1FB64543004C9242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		036F51011FB64543004C9242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		036F51041FB64543004C9242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		036F51071FB64543004C9242 /* BridgitChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BridgitChallenge.xcdatamodel; sourceTree = "<group>"; };
+		036F51091FB64543004C9242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		036F510C1FB64543004C9242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		036F510E1FB64543004C9242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036F51131FB64543004C9242 /* BridgitChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgitChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036F51171FB64543004C9242 /* BridgitChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgitChallengeTests.swift; sourceTree = "<group>"; };
+		036F51191FB64543004C9242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036F511E1FB64543004C9242 /* BridgitChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgitChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		036F51221FB64543004C9242 /* BridgitChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgitChallengeUITests.swift; sourceTree = "<group>"; };
+		036F51241FB64543004C9242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		036F50F91FB64543004C9242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036F51101FB64543004C9242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036F511B1FB64543004C9242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		036F50F31FB64543004C9242 = {
+			isa = PBXGroup;
+			children = (
+				036F50FE1FB64543004C9242 /* BridgitChallenge */,
+				036F51161FB64543004C9242 /* BridgitChallengeTests */,
+				036F51211FB64543004C9242 /* BridgitChallengeUITests */,
+				036F50FD1FB64543004C9242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		036F50FD1FB64543004C9242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				036F50FC1FB64543004C9242 /* BridgitChallenge.app */,
+				036F51131FB64543004C9242 /* BridgitChallengeTests.xctest */,
+				036F511E1FB64543004C9242 /* BridgitChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		036F50FE1FB64543004C9242 /* BridgitChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				036F50FF1FB64543004C9242 /* AppDelegate.swift */,
+				036F51011FB64543004C9242 /* ViewController.swift */,
+				036F51031FB64543004C9242 /* Main.storyboard */,
+				036F51091FB64543004C9242 /* Assets.xcassets */,
+				036F510B1FB64543004C9242 /* LaunchScreen.storyboard */,
+				036F510E1FB64543004C9242 /* Info.plist */,
+				036F51061FB64543004C9242 /* BridgitChallenge.xcdatamodeld */,
+			);
+			path = BridgitChallenge;
+			sourceTree = "<group>";
+		};
+		036F51161FB64543004C9242 /* BridgitChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				036F51171FB64543004C9242 /* BridgitChallengeTests.swift */,
+				036F51191FB64543004C9242 /* Info.plist */,
+			);
+			path = BridgitChallengeTests;
+			sourceTree = "<group>";
+		};
+		036F51211FB64543004C9242 /* BridgitChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				036F51221FB64543004C9242 /* BridgitChallengeUITests.swift */,
+				036F51241FB64543004C9242 /* Info.plist */,
+			);
+			path = BridgitChallengeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		036F50FB1FB64543004C9242 /* BridgitChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036F51271FB64543004C9242 /* Build configuration list for PBXNativeTarget "BridgitChallenge" */;
+			buildPhases = (
+				036F50F81FB64543004C9242 /* Sources */,
+				036F50F91FB64543004C9242 /* Frameworks */,
+				036F50FA1FB64543004C9242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BridgitChallenge;
+			productName = BridgitChallenge;
+			productReference = 036F50FC1FB64543004C9242 /* BridgitChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		036F51121FB64543004C9242 /* BridgitChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036F512A1FB64543004C9242 /* Build configuration list for PBXNativeTarget "BridgitChallengeTests" */;
+			buildPhases = (
+				036F510F1FB64543004C9242 /* Sources */,
+				036F51101FB64543004C9242 /* Frameworks */,
+				036F51111FB64543004C9242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036F51151FB64543004C9242 /* PBXTargetDependency */,
+			);
+			name = BridgitChallengeTests;
+			productName = BridgitChallengeTests;
+			productReference = 036F51131FB64543004C9242 /* BridgitChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		036F511D1FB64543004C9242 /* BridgitChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 036F512D1FB64543004C9242 /* Build configuration list for PBXNativeTarget "BridgitChallengeUITests" */;
+			buildPhases = (
+				036F511A1FB64543004C9242 /* Sources */,
+				036F511B1FB64543004C9242 /* Frameworks */,
+				036F511C1FB64543004C9242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				036F51201FB64543004C9242 /* PBXTargetDependency */,
+			);
+			name = BridgitChallengeUITests;
+			productName = BridgitChallengeUITests;
+			productReference = 036F511E1FB64543004C9242 /* BridgitChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		036F50F41FB64543004C9242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Nan Chen";
+				TargetAttributes = {
+					036F50FB1FB64543004C9242 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					036F51121FB64543004C9242 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 036F50FB1FB64543004C9242;
+					};
+					036F511D1FB64543004C9242 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 036F50FB1FB64543004C9242;
+					};
+				};
+			};
+			buildConfigurationList = 036F50F71FB64543004C9242 /* Build configuration list for PBXProject "BridgitChallenge" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 036F50F31FB64543004C9242;
+			productRefGroup = 036F50FD1FB64543004C9242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				036F50FB1FB64543004C9242 /* BridgitChallenge */,
+				036F51121FB64543004C9242 /* BridgitChallengeTests */,
+				036F511D1FB64543004C9242 /* BridgitChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		036F50FA1FB64543004C9242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036F510D1FB64543004C9242 /* LaunchScreen.storyboard in Resources */,
+				036F510A1FB64543004C9242 /* Assets.xcassets in Resources */,
+				036F51051FB64543004C9242 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036F51111FB64543004C9242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036F511C1FB64543004C9242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		036F50F81FB64543004C9242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036F51081FB64543004C9242 /* BridgitChallenge.xcdatamodeld in Sources */,
+				036F51021FB64543004C9242 /* ViewController.swift in Sources */,
+				036F51001FB64543004C9242 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036F510F1FB64543004C9242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036F51181FB64543004C9242 /* BridgitChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		036F511A1FB64543004C9242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036F51231FB64543004C9242 /* BridgitChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		036F51151FB64543004C9242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036F50FB1FB64543004C9242 /* BridgitChallenge */;
+			targetProxy = 036F51141FB64543004C9242 /* PBXContainerItemProxy */;
+		};
+		036F51201FB64543004C9242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 036F50FB1FB64543004C9242 /* BridgitChallenge */;
+			targetProxy = 036F511F1FB64543004C9242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		036F51031FB64543004C9242 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036F51041FB64543004C9242 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		036F510B1FB64543004C9242 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				036F510C1FB64543004C9242 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		036F51251FB64543004C9242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		036F51261FB64543004C9242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		036F51281FB64543004C9242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgitChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nan.BridgitChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		036F51291FB64543004C9242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgitChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nan.BridgitChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		036F512B1FB64543004C9242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgitChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nan.BridgitChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BridgitChallenge.app/BridgitChallenge";
+			};
+			name = Debug;
+		};
+		036F512C1FB64543004C9242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgitChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nan.BridgitChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BridgitChallenge.app/BridgitChallenge";
+			};
+			name = Release;
+		};
+		036F512E1FB64543004C9242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgitChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nan.BridgitChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BridgitChallenge;
+			};
+			name = Debug;
+		};
+		036F512F1FB64543004C9242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BridgitChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nan.BridgitChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BridgitChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036F50F71FB64543004C9242 /* Build configuration list for PBXProject "BridgitChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036F51251FB64543004C9242 /* Debug */,
+				036F51261FB64543004C9242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036F51271FB64543004C9242 /* Build configuration list for PBXNativeTarget "BridgitChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036F51281FB64543004C9242 /* Debug */,
+				036F51291FB64543004C9242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036F512A1FB64543004C9242 /* Build configuration list for PBXNativeTarget "BridgitChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036F512B1FB64543004C9242 /* Debug */,
+				036F512C1FB64543004C9242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		036F512D1FB64543004C9242 /* Build configuration list for PBXNativeTarget "BridgitChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				036F512E1FB64543004C9242 /* Debug */,
+				036F512F1FB64543004C9242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		036F51061FB64543004C9242 /* BridgitChallenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				036F51071FB64543004C9242 /* BridgitChallenge.xcdatamodel */,
+			);
+			currentVersion = 036F51071FB64543004C9242 /* BridgitChallenge.xcdatamodel */;
+			path = BridgitChallenge.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 036F50F41FB64543004C9242 /* Project object */;
+}
