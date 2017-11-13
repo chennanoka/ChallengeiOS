@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		036F51001FB64543004C9242 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F50FF1FB64543004C9242 /* AppDelegate.swift */; };
-		036F51021FB64543004C9242 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F51011FB64543004C9242 /* ViewController.swift */; };
+		036F51021FB64543004C9242 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F51011FB64543004C9242 /* RootViewController.swift */; };
 		036F51051FB64543004C9242 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036F51031FB64543004C9242 /* Main.storyboard */; };
 		036F51081FB64543004C9242 /* BridgitChallenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 036F51061FB64543004C9242 /* BridgitChallenge.xcdatamodeld */; };
 		036F510A1FB64543004C9242 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 036F51091FB64543004C9242 /* Assets.xcassets */; };
 		036F510D1FB64543004C9242 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 036F510B1FB64543004C9242 /* LaunchScreen.storyboard */; };
 		036F51181FB64543004C9242 /* BridgitChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F51171FB64543004C9242 /* BridgitChallengeTests.swift */; };
 		036F51231FB64543004C9242 /* BridgitChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F51221FB64543004C9242 /* BridgitChallengeUITests.swift */; };
+		036F51311FB9E3FC004C9242 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F51301FB9E3FC004C9242 /* MenuViewController.swift */; };
+		036F51331FB9E445004C9242 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 036F51321FB9E445004C9242 /* MenuTableViewCell.swift */; };
+		03C01D6A1FBA27830083ACEA /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C01D691FBA27830083ACEA /* HomeTableViewCell.swift */; };
+		03C01D6E1FBA35F50083ACEA /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C01D6D1FBA35F50083ACEA /* HomeViewController.swift */; };
+		03C01D711FBA362F0083ACEA /* StarredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C01D701FBA362F0083ACEA /* StarredViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +42,7 @@
 /* Begin PBXFileReference section */
 		036F50FC1FB64543004C9242 /* BridgitChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BridgitChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		036F50FF1FB64543004C9242 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		036F51011FB64543004C9242 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		036F51011FB64543004C9242 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		036F51041FB64543004C9242 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		036F51071FB64543004C9242 /* BridgitChallenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BridgitChallenge.xcdatamodel; sourceTree = "<group>"; };
 		036F51091FB64543004C9242 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +54,11 @@
 		036F511E1FB64543004C9242 /* BridgitChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BridgitChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		036F51221FB64543004C9242 /* BridgitChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BridgitChallengeUITests.swift; sourceTree = "<group>"; };
 		036F51241FB64543004C9242 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		036F51301FB9E3FC004C9242 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		036F51321FB9E445004C9242 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		03C01D691FBA27830083ACEA /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		03C01D6D1FBA35F50083ACEA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		03C01D701FBA362F0083ACEA /* StarredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarredViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +109,14 @@
 		036F50FE1FB64543004C9242 /* BridgitChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				03C01D6F1FBA36030083ACEA /* ViewController */,
+				03C01D681FBA1E4E0083ACEA /* Network */,
+				03C01D671FBA1E090083ACEA /* Database */,
+				03C01D661FBA1DF30083ACEA /* Cell */,
 				036F50FF1FB64543004C9242 /* AppDelegate.swift */,
-				036F51011FB64543004C9242 /* ViewController.swift */,
+				036F51011FB64543004C9242 /* RootViewController.swift */,
 				036F51031FB64543004C9242 /* Main.storyboard */,
+				036F51301FB9E3FC004C9242 /* MenuViewController.swift */,
 				036F51091FB64543004C9242 /* Assets.xcassets */,
 				036F510B1FB64543004C9242 /* LaunchScreen.storyboard */,
 				036F510E1FB64543004C9242 /* Info.plist */,
@@ -126,6 +141,38 @@
 				036F51241FB64543004C9242 /* Info.plist */,
 			);
 			path = BridgitChallengeUITests;
+			sourceTree = "<group>";
+		};
+		03C01D661FBA1DF30083ACEA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				036F51321FB9E445004C9242 /* MenuTableViewCell.swift */,
+				03C01D691FBA27830083ACEA /* HomeTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		03C01D671FBA1E090083ACEA /* Database */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		03C01D681FBA1E4E0083ACEA /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		03C01D6F1FBA36030083ACEA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				03C01D6D1FBA35F50083ACEA /* HomeViewController.swift */,
+				03C01D701FBA362F0083ACEA /* StarredViewController.swift */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +309,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C01D6A1FBA27830083ACEA /* HomeTableViewCell.swift in Sources */,
 				036F51081FB64543004C9242 /* BridgitChallenge.xcdatamodeld in Sources */,
-				036F51021FB64543004C9242 /* ViewController.swift in Sources */,
+				03C01D711FBA362F0083ACEA /* StarredViewController.swift in Sources */,
+				036F51021FB64543004C9242 /* RootViewController.swift in Sources */,
 				036F51001FB64543004C9242 /* AppDelegate.swift in Sources */,
+				036F51311FB9E3FC004C9242 /* MenuViewController.swift in Sources */,
+				03C01D6E1FBA35F50083ACEA /* HomeViewController.swift in Sources */,
+				036F51331FB9E445004C9242 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
