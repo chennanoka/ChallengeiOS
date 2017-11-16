@@ -15,7 +15,7 @@ class MenuViewController: UIViewController, UITableViewDelegate, UITableViewData
     
     var delegate: MenuViewControllerEvent?
     
-    let titleArray = ["Home","Starred"]
+    let titleArray = ["Home","Labeled"]
 
     @IBOutlet weak var menuTableView: UITableView!
     

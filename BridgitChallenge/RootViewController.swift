@@ -26,10 +26,10 @@ class RootViewController: UIViewController, MenuViewControllerEvent{
         menuViewController.delegate = self
        
         let swipeRight = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture))
-        swipeRight.direction = UISwipeGestureRecognizerDirection.right
+        swipeRight.direction = .right
         
         let swipeLeft = UISwipeGestureRecognizer(target: self, action: #selector(self.respondToSwipeGesture))
-        swipeLeft.direction = UISwipeGestureRecognizerDirection.left
+        swipeLeft.direction = .left
         
         self.view.addGestureRecognizer(swipeRight)
         self.view.addGestureRecognizer(swipeLeft)
@@ -45,14 +45,18 @@ class RootViewController: UIViewController, MenuViewControllerEvent{
     }
     
     @objc func respondToSwipeGesture(gesture:UISwipeGestureRecognizer){
-        switch gesture.direction {
-        case UISwipeGestureRecognizerDirection.right:
-            showMenu()
-        case UISwipeGestureRecognizerDirection.left:
-            hideMenu()
-        default:break
+        if gesture.state == .recognized {
+            switch gesture.direction {
+            case .right:
+                showMenu()
+            case .left:
+                hideMenu()
+            default:break
+            }
         }
     }
+    
+    
     
     func showMenu()
     {
@@ -72,11 +76,13 @@ class RootViewController: UIViewController, MenuViewControllerEvent{
     func hideMenu()
     {
         menuOpenStatus = false
+        if(self.menuWidth != nil){
         UIView.animate(withDuration: 0.5, animations: {
             self.menuViewController.view.frame = CGRect(x:-self.menuWidth, y:self.navigationController!.navigationBar.frame.height, width:UIScreen.main.bounds.size.width+self.menuWidth, height: UIScreen.main.bounds.size.height)
               self.menuViewController.view.backgroundColor = UIColor.white.withAlphaComponent(0)
         }) { (result) in
              self.menuViewController.view.removeFromSuperview()
+        }
         }
     }
 
